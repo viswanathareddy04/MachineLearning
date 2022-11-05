@@ -5,6 +5,8 @@
     
     2. One variable is considered to be an independent variable, and the other is considered to be a dependent variable.
 
+    3. Linear Regression can be used when the target variable is numerical and continuous.
+
     3. Before attempting to fit a linear model to observed data, a modeler should first determine whether or not there is a relationship between the variables of interest. This does not necessarily imply that one variable causes the other (for example, higher SAT scores do not cause higher college grades), but that there is some significant association between the two variables. A scatterplot can be a helpful tool in determining the strength of the relationship between two variables. If there appears to be no association between the proposed explanatory and dependent variables (i.e., the scatterplot does not indicate any increasing or decreasing trends), then fitting a linear regression model to the data probably will not provide a useful model. A valuable numerical measure of association between two variables is the **correlation coefficient**, which is a value between -1 and 1 indicating the strength of the association of the observed data for the two variables
 
 
@@ -31,15 +33,11 @@ The equation above reveals that the correlation between two variables is the cov
 
 If the correlation is 1, they move perfectly together, and if the correlation is -1, the variables move perfectly in opposite directions. If the correlation is 0, then the two variables move in random directions from each other. In short, covariance tells you that two variables change the same way while correlation reveals how a change in one variable affects a change in the other. 
 
-What Is the Correlation Coefficient?
-
-The correlation coefficient is a statistical measure of the strength of a linear relationship between two variables. Its values can range from -1 to 1. A correlation coefficient of -1 describes a perfect negative, or inverse, correlation, with values in one series rising as those in the other decline, and vice versa. A coefficient of 1 shows a perfect positive correlation, or a direct relationship. A correlation coefficient of 0 means there is no linear relationship.
-
-
-
-
 
 ## References
 
     1. https://www.investopedia.com/articles/financial-theory/11/calculating-covariance.asp
     2. https://www.investopedia.com/terms/s/standarddeviation.asp
+    3. https://www.mathsisfun.com/data/least-squares-regression.html
+    4. https://ruder.io/optimizing-gradient-descent/
+    5. https://www.kaggle.com/code/ryanluoli2/a-complete-guide-to-linear-regression/notebook
