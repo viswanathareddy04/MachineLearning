@@ -15,7 +15,7 @@ A statistical measure of the **directional relationship** between two variables.
 Finding that two variables have a high or low covariance might not be a useful metric on its own. Covariance can tell how the variables move together, but to determine the strength of the relationship, we need to look at their correlation. The correlation should, therefore, be used in conjunction with the covariance, and is represented by this equation:
 
 
-![This is an image](image.png)
+![Covariance](supervised_ml/regression/linear/images/covariance.png)
 
 
 What Is the Correlation Coefficient?
